@@ -23,9 +23,12 @@ public class _00_ArrayCheatSheet {
 			System.out.println(fiftyArrays[i]);
 		}
 		//8. without printing the entire array, print only the smallest number in the array
-		System.out.println(fiftyArrays);
+		System.out.println(fiftyArrays[0]);
 		//9 print the entire array to see if step 8 was correct
-		
+		for (int i = 0; i < fiftyArrays.length; i++) {
+			System.out.println(fiftyArrays[i]);
+		}
 		//10. print the largest number in the array.
+		System.out.println(fiftyArrays[fiftyArrays.length -1]);
 	}
 }
